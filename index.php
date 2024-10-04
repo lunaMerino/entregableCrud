@@ -64,7 +64,7 @@ $query = mysqli_query($con, $sql);
                     <td><?= $row['edad'] ?></td>
                     <td>
                         <a href="./updateForm/update.php?idAlumnos=<?= $row['idAlumnos'] ?>" class="btn btn-success">Editar</a>
-                        <a href="./CRUD/delete_projects.php?idAlumnos=<?= $row['idAlumnos'] ?>" class="btn btn-danger">Borrar</a>
+                        <a href="./CRUD/delete_project.php?idAlumnos=<?= $row['idAlumnos'] ?>" class="btn btn-danger">Borrar</a>
                     </td>
                 </tr>
                 <?php endwhile; ?>
